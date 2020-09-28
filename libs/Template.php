@@ -18,7 +18,16 @@
        {
            $this->vars[$key] = $value;
        }
-    
+       public function __toString()
+       {
+           extract($this->vars);
+           chdir(dirname($this->template));
+           ob_start();
+
+           include basename($this->template);
+
+           ob_get_clean();
+       }
   }
 
 
