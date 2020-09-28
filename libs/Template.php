@@ -10,6 +10,10 @@
        {
            $this->template = $template;
        }
+       public function __get($key)
+       {
+           return $this->vars[$key];
+       }
        public function __set($key, $value)
        {
            $this->vars[$key] = $value;
