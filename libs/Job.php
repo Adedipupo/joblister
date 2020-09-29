@@ -12,7 +12,7 @@ class Job{
         $this->db->query("SELECT jobs.*,categories.name as cname
                             FROM jobs
                             INNER JOIN categories 
-                            ON jobs_category_id = categories.id
+                            ON jobs.category_id = categories.id
                             ORDER BY post_date DESC");
 
          $results = $this->db->resultSet();
