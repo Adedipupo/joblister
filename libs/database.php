@@ -18,5 +18,7 @@ class Database{
                 PDO::ATTR_PERSISTENT => true,
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
       );
+
+      $pdo = new PDO($dsn,$this->user,$this->password,$options);
     }
 }
