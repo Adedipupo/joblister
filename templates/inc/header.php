@@ -6,7 +6,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Bootstrap CSS CDN-->
-   <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" >
+   <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css" >
+   <link rel="stylesheet" href="css/style.css">
 
 <title>Hompage</title>
 </head>
@@ -45,3 +46,4 @@
     </form>
   </div>
 </nav>
+
