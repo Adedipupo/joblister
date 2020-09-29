@@ -1,8 +1,5 @@
 <?php include 'inc/header.php'; ?>
-<br/>
-<br/>
-<br/>
-<br/>
+
 <main role="main">
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
