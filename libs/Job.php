@@ -9,7 +9,7 @@ class Job{
     }
     public function getAllJobs()
     {
-        $this->db->query("SELECT jobs.*,categories.name as cname
+        $this->db->query("SELECT jobs.*,categories.name AS cname
                             FROM jobs
                             INNER JOIN categories 
                             ON jobs.category_id = categories.id

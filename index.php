@@ -4,4 +4,5 @@
 $job = new Job;
 $template = new Template('templates/frontpage.php');
 $template->jobs =$job->getAllJobs();
+$template->categories=$job->getAllCategories();
 echo $template;
