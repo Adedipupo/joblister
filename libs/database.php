@@ -49,4 +49,11 @@ class Database{
         }
         $this->stmt->bindValue($param,$value,$type);
     }
+    public function execute(){
+        return $this->stmt->excute();
+    }
+    public function resultSet(){
+        $this->execute();
+        return $this->stmt->fetchAll(PDO::FETCH_OBJ);
+    }
 }
