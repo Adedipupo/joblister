@@ -12,8 +12,15 @@
   </div>
 
  <?php foreach ($jobs as $job) : ?>
-
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2><?php echo $job->job_title ?></h2>
+        <p><?php echo $job->job_description ?></p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>   
+  </div>
   <?php endforeach ; ?>
 
 </main>
