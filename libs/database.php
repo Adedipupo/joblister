@@ -19,6 +19,11 @@ class Database{
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
       );
 
-      $pdo = new PDO($dsn,$this->user,$this->password,$options);
+      try {
+        $this->dbh = new PDO($dsn,$this->user,$this->password,$options);
+
+      } catch (PDOException $e) {
+          $this->error = $e->getMessage();
+      }
     }
 }
