@@ -1,18 +1,15 @@
 <?php 
 
+ define('DB_HOST', 'localhost');
+ define('DB_USER', 'root');
+ define('DB_PASSWORD', 'Adedipupo123!');
+ define('DB_NAME', 'joblister');
 
- $host = 'localhost';
- $user = 'root';
- $password = 'Adedipupo123!';
- $dbname = 'joblister';
+ define('SITE_TITLE', 'JOBLISTER');
+ 
+ 
+ 
 
- $dsn = 'mysql:host = $host; dbname=$dbname';
-
- try {
-     $pdo = new PDO($dsn,$user,$password);
- } catch (ERRORMODE $e) {
-     
- }
 
 
 ?>

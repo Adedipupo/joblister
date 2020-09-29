@@ -16,7 +16,7 @@
 
 <div class="container">
   <nav class="navbar navbar-expand-md">
-    <a class="navbar-brand" href="#">JOBLISTER</a>
+    <a class="navbar-brand" href="#"><?php echo SITE_TITLE ?></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
