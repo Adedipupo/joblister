@@ -13,6 +13,7 @@
             <option value="<?php echo $category->id;?><?php echo $category->name;?>"></option>
           <?php endforeach; ?>  
         </select>
+        <button type="submit" class="btn btn-primary">Find</button></button>
       </form>
     </div>
   </div>
